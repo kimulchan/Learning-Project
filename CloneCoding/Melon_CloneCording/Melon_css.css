@@ -1,0 +1,270 @@
+body,html{
+    margin:0;
+    width: 100%;
+    
+}
+*{
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.up{
+    width: 100%;
+    height: 210px;
+    min-width: 1200px;
+}
+.top_Line{
+    margin: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #09c740;
+    border: none;
+}
+.Top_Menu{
+    height: 10%;
+    margin:5px 220px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+}
+.Ticket{
+    width:auto;
+    margin: 0 30px;
+    color: #888888;
+    font-size: 13px;
+    margin-right: 600px;
+}
+.Buy_Ticket{
+    color: #888888;
+    font-size: 13px;
+    
+}
+.slash{
+    margin :0 15px;
+    font-size: 13px;
+    color: #888888;
+}
+.Middle_Line{
+    margin: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #eeeeee;
+    border: none;
+}
+.Middle_Menu{
+    
+    height: 99px;
+    margin:10px 250px;
+    margin-top:10px  ;
+    display: flex;
+    align-items: center;
+    
+
+}
+.Bottom_Menu{
+    margin: 0 250px;
+    height: 10%;
+    display: flex;
+}
+.Melon{
+    margin-right: 10px;
+}
+.Search_Bar{
+    margin-top: 10px;
+    background: transparent;
+    background-image: url("./Melon_img/bg_cmn_search322.png");
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+  
+    
+}
+.Surch_Button{
+    background-image: url("./Melon_img/btn_search_bar.png");
+    height: 40px;
+    width: 45px;
+    margin-top: 10px;
+}
+.High_Class{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.High_Class_Text{
+    
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+.Top_Avd{
+    margin-left: 110px
+}
+.Bottom_Text{
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.Bottom_Line{
+    border: none;
+    background-color: #bfbfbf;
+    height: 1px;
+    width: 100%;
+    margin: 0;
+    
+}
+.My_Music{
+    margin-left: 250px;
+    font-size: 15px;
+    color: #9a9a9a;
+    font-weight: 600;
+
+}
+.Bottom_Text:hover{
+    cursor: pointer;
+    color: green;
+}
+.down{
+    margin: 0 250px;
+    height: 500px;
+    min-width: 1200px;
+    display: flex;
+}
+.New_Albom_Box{
+    width:485px ;
+    height: 340px;
+}
+.New_Albom_Text{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    
+}
+.New_Albom_Text:hover{
+    cursor: pointer;
+}
+.New_Albom_Img_Box{
+    height: 90%;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+}
+.New_Albom_Text_one{
+    font-size: 13px;
+    font-weight: 800;
+    margin-right: 220px ;
+}
+.New_Albom_Text_Another{
+    font-size: 12px;
+    font-weight: 800;
+    color: grey;
+}
+.New_Albom_Text_Slash{
+    font-size: 13px;
+    color: grey;
+    margin: 0 5px;
+}
+.New_Albom_Text_Number{
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.New_Albom_Img{
+    margin-bottom: 4px;
+    margin-right: 4px;
+    height: 156px;
+    width: 156px;
+    transition: all 0.15s linear;
+    position: relative;
+    background-color: black;
+}
+.New_Albom_Img::after{
+    content: "앙";
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.New_Albom_Img:hover{
+    cursor: pointer;
+    filter: brightness(0.5);
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.New_Albom_Img_Box > p{
+    display: none;
+    position: absolute;
+    top : 0;
+}
+.New_Albom_Img:hover + p{
+    display: block;
+}
+.Next_Img{
+    margin-top: 34px;
+    height: 315px;
+    width: auto;
+    margin-right: 10px ;
+}
+.Down_Right{
+    height:315px ;
+    margin-top: 34px;
+    width: 270px;
+}
+.Login{
+    height: 130px;
+    margin-bottom: 5px;
+    background-color: #fbfbfb;
+    border:#f3f3f3 solid 1px ;
+
+}
+.Login_Wrapping{
+    margin: 25px 15px;
+    height: 80px;
+}
+.Login_Top{
+   height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Login_Text_1{
+    font-size: 11px;
+    color: #a6a6a6;
+}
+.Login_Text_2{
+    font-size: 11px;
+    color: #898989;
+}
+.Login_Bottom{
+    margin-top: 10px;
+    height: 45px;
+    
+}
+.Login_Button{
+    background-color: #00d444;
+    height: 45px;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 15px;
+    
+}
+.Login_Bottom_Img{
+    height: auto;
+    width: 270px;
+
+}
+.Login_Button:hover{
+    cursor: pointer;
+    background-color: #01b925;
+}
