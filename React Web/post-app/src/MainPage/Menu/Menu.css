@@ -1,0 +1,19 @@
+.menu{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color:forestgreen;
+    color: white;
+}
+.login:hover{
+    transition: 1s;
+    background-color:  green;
+    color: beige;
+}

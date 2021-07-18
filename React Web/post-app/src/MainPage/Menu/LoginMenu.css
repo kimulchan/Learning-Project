@@ -1,0 +1,102 @@
+.LoginMenu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.LoginPage{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 70%;
+    background-color: white; 
+    border-radius: 15px;
+    overflow: hidden;
+}
+.LoginText{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(19, 187, 33);
+}
+
+.LoginInputs{
+
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+p{
+    font-size: 20px;
+    color: rgb(173, 84, 84);
+    font-weight: 600;
+}
+.IsInput{
+
+    padding-left: 5px;
+    width: 60%;
+    height: 40px;
+    font-size: 17px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+.IsInput:focus{
+    background-color: rgb(138, 212, 138);
+    
+}
+.InputWrapper{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.LoginButton{
+    width: 60%;
+    height: 18%;
+    align-self: center;
+    outline: none;
+    font-size: 18px;
+    margin-top: 25px;
+    background-color: rgb(138, 212, 138);
+    border-radius: 5px;
+}
+.getIdAndPass{
+    height: 10%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 212, 138);
+    
+}
+
+.qLogin{
+    margin-left: 10px;  
+    font-weight: 600;
+    color: rgb(173, 84, 84);    
+}
+.qLogin:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: brown;
+}

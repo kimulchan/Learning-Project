@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.postWrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Wrap{
+    flex-direction: column;
+    display: flex;
+    height: 101vh;
+    /* height: calc(100vh - 130px); */
+}
+
+.PWrap{
+    /* width: 100%; */
+   display: flex; 
+   justify-content: space-around;
+  
+   height: 101%;
+    /* height: 100%; */
+}
+.button{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 17px;
+    font-size: 50px;
+    
+}
+.nbutton{
+    background-color: rgba(0, 0,0, 0);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 0;
+}
+.button:hover{
+    cursor: pointer;
+
+}

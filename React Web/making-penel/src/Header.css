@@ -1,0 +1,127 @@
+
+
+.logo{
+    height: 22px;
+    width: 20px;
+
+}
+b{
+    font-size: 12px;
+    font-weight: 400;
+}
+.HeaderUpBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 26px;
+    
+}
+.LogoText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 22px;
+    
+}
+.Button{
+    height: 22px;
+    width: 47px;
+    border:none;
+    background-color: white;
+    transition: background-color .3s
+}
+.Button:hover{
+    background-color: gray;
+}
+.HeaderDownBox{
+    height: 31px;
+    width: max-content;
+    display: flex;
+    
+}
+.Sign{
+    width: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.addressBox{
+    width: 1064px;
+    
+    border: #bbbbbb solid 1px;
+    display: flex;
+    align-items: center;
+    
+}
+.addressImg{
+    height: 22px;
+    width: 20px;
+}
+.addressArrow{
+    width: 20px;
+ 
+}
+.addressClick{
+    font-size: 12px;
+    
+}
+.addressTextBox{
+    
+    white-space: nowrap;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 400;
+    height: 100%;
+    }
+.inputBox{
+    width: 345px;
+    border: #bbbbbb solid 1px;
+    margin-left: 8px;
+    padding-left: 10px;
+    font-size: 12px;
+    
+}
+.addressIconBox{
+    height: 100%;
+    background-color: white;
+    font-size: 7px;
+    padding: 0 3px 0 3px;
+        
+}
+
+.addressWrapper:hover button {
+      
+    border:#CDE8ff solid 1px;
+    background: rgba(163, 215, 231, 0.952);
+} 
+.addressWrapper button {
+ 
+    border:transparent solid 1px;
+    box-sizing: border-box;   
+}
+.addressWrapper{
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+}
+.addressall{
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    display: flex;
+    border: none;
+    outline: none;
+    font-size: 13px;
+
+}
+.Sign button{
+    background-color: white;
+    font-size: 16px;
+    color:gray;
+    margin: 6px;
+}
+.Sign button:hover{
+    color:#CDE8ff;
+
+}

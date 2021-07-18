@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+
+}
+aside{
+    width: 200px;
+    height: 806px;
+}
+.home{
+    margin: 20px 0 20px 30px;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.downlode{
+    margin-left: 30px;
+    font-size: 12px;
+    margin-bottom : 10px;
+
+}
+.Shield{
+    margin-left:5px ;
+    width: 15px;
+    height: 15px;
+}
+.window{
+    font-size: 12px;
+    margin-bottom : 10px;
+}
+aside div:hover{
+    color:blue;
+    text-decoration-line: underline;
+    text-decoration-color: blue ;
+    
+}

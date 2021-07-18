@@ -1,0 +1,87 @@
+main{
+    width: calc(100% - 200px);
+    
+}
+.mainUp{
+    height: 50px;
+    margin-left:30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mainUpText1{
+    color:blue;
+}
+.mainUpText2{
+    font-size: 12px;    
+}
+.mainDown{
+    height: calc(100% - 100px);
+    
+    
+}
+.configuration{
+    height: 30px;
+    background-color: #eeeeee;
+}
+.mainSetUp{
+    height: 20px;
+    display: flex;
+}
+.mainSetDown{
+    height: calc(100% - 110px);
+    overflow:auto;
+    overflow-x: hidden;
+    margin-left: 5px;
+}
+.bottomSet{
+    height: 60px;
+    background-color: #CDE8ff;
+}
+.mainSetUp button{
+    font-size: 13px;
+    background-color: white;
+    border-right: #999999 solid 0.5px ;
+}
+.mainSetUp button:hover{
+    background-color: #CDE8ff;
+    
+}
+img{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.line{
+    display: flex;
+
+}
+.line div{
+    font-size: 13px;
+    border-right: #999999 solid 1px;
+    margin-right: 5px;
+}
+.line:hover{
+    background-color: #CDE8ff;
+}
+.name{    
+    width: 290px;
+    font-weight: 530;
+}
+.adder{
+    width: 188px;
+}
+.downlodeDay{
+    width: 79px;
+}
+.size{
+    width: 75px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+.version{
+    width: 118px;
+}

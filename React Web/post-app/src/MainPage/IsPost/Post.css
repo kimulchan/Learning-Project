@@ -1,0 +1,52 @@
+.post{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin:15px 0;   
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0, 0, 0.3);
+    background-color: white;
+}
+.name{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.postImg{
+    width: 100%;
+    height: auto;
+}
+.loadingWrap{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Semicolon{
+    
+    animation: 1s linear 0s infinite normal none running Spin;
+    position: relative;
+    transform: rotate(2turn);
+    width: 30px;
+    height: 30px;
+    z-index: -1;
+}
+@keyframes Spin{
+    0%{
+        transform:rotate( 0deg);
+    }
+    100%{
+        transform:rotate( 360deg)
+    }
+}
+.dddd{
+    width: 35px;
+    height: 35px;
+    stroke: black;
+    stroke-dashoffset: 50;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    stroke-dasharray: 130;}

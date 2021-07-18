@@ -1,0 +1,38 @@
+img{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+.line{
+    display: flex;
+    height: 20px;
+    width: 100%;
+    
+}
+.line div{
+    font-size: 13px;
+    border-right: #999999 solid 1px;
+    margin-right: 5px;
+}
+.line:hover{
+    background-color: #CDE8ff;
+}
+.name{    
+    width: 290px;
+    font-weight: 530;
+}
+.adder{
+    width: 188px;
+}
+.downlodeDay{
+    width: 79px;
+}
+.size{
+    width: 75px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+.version{
+    width: 118px;
+}
