@@ -1,0 +1,3 @@
+const str= "ejfisjidjfe";
+
+str
