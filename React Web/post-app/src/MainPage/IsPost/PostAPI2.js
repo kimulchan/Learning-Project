@@ -33,7 +33,7 @@ function PostAPI() {
       setLoading(true);
       let response = await axios.get(
         //`https://api.eungyeol.live/feed/list?page=${props}`
-          'http://10.156.147.162:8080/feed'
+          'http://18.118.206.83:8080/feed'
         );
         
       console.log(response.data.posts);

@@ -14,7 +14,7 @@ function ModifyPost({match}) {
             <Content placeholder='내용' ref={content}></Content>
             <Link to='/'><CButton
              onClick={
-                ()=>{axios.patch(`http://10.156.147.162:8080/feed/${match.params.id}`,{
+                ()=>{axios.patch(`http://18.118.206.83:8080/feed/${match.params.id}`,{
                 title:title.current.value,
                 content: content.current.value
             })

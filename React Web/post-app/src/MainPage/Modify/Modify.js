@@ -13,10 +13,10 @@ function Modify({Id,MenuFalse}) {
             <Link to={`/modify/${Id}`}><MenuButton >수정</MenuButton></Link>
             
             <MenuButton style={{backgroundColor:'red'}} onClick={
-                ()=>{Deleate(Id);
+                ()=>{
+                    Deleate(Id);
                     MenuFalse();
                     window.location.reload();
-
             }}>삭제</MenuButton>
 
         </MenuBox>
